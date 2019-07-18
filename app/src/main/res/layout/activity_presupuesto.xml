@@ -15,4 +15,12 @@
             android:layout_marginEnd="16dp" android:layout_marginRight="16dp"
             app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="16dp"
             android:layout_marginStart="16dp" android:textSize="30sp"/>
+    <TextView
+            android:layout_width="360dp"
+            android:layout_height="35dp"
+            android:id="@+id/txtTotal"
+            app:layout_constraintTop_toBottomOf="@+id/txtTitulo" android:layout_marginTop="280dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="32dp"
+            android:layout_marginStart="32dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp" android:layout_marginRight="8dp"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

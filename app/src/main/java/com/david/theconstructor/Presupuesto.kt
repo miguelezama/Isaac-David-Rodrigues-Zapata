@@ -13,9 +13,9 @@ class Presupuesto : AppCompatActivity() {
         setContentView(R.layout.activity_presupuesto)
 
         val tamIntent: Intent=intent
-        var tamanio = tamIntent.getStringExtra("tamanio")
-        txtTitulo.text = "Presupuesto de Piso $tamanio"
-
+        var valor = tamIntent.getStringExtra("valor")
+        txtTotal.text = "Presupuesto total: $valor"
+        txtTitulo.text = "Presupuesto de Piso"
 
         //Toast.makeText(this, etTamanio.text, Toast.LENGTH_LONG).show()
 
